@@ -1,7 +1,7 @@
 # coding: utf-8
 class Redis
   module Search
-    extend ActiveSupport::Concern
+    extend ::ActiveSupport::Concern
 
     module ClassMethods
       # Config redis-search index for Model
